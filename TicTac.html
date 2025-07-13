@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictac.css">
+</head>
+<body>
+    <main class="background">
+
+        <!--    JUDUL    -->
+        <section class="judul">
+            <h1>Tic Tac Toe Game</h1>
+        </section>
+
+        <!--    DISPLAY PLAYER WINNER   -->
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+
+        <!--    COUNTER PLAYER 1, PLAYER 2 AND TIE     -->
+        <section class="counter">
+            <div class="counter-player playerX">
+                <span class="counter-text">Player X :</span>
+                <span class="counter-value">0</span>
+            </div>
+            <div class="counter-player playerO">
+                <span class="counter-text">Player O :</span>
+                <span class="counter-value">0</span>
+            </div>
+            <div class="counter-tie">
+                <span class="counter-text">Tie :</span>
+                <span class="counter-value">0</span>
+            </div>
+        </section>
+
+        <!--        BOARD GAME        -->
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+
+        <!--    ANNOUNCER DISPLAY    -->
+        <section class="display announcer hide"></section>
+
+        <!--    CONTROLS FOR RESETTING BOARD AND GAME    -->
+        <section class="controls">
+            <button id="reset-board">Reset Board</button>
+            <button id="reset-game">Reset Game</button>
+        </section>
+    </main>
+    
+    <script src="TicTac.js"></script>
+</body>
+</html>

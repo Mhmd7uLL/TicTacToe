@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'itim', cursive;
+    background: #16160f;
+}
+
+.background {
+    background: #16160f;
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+}
+
+.judul{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    margin-top: 1px;
+}
+
+.tile{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: white;
+}
+
+.playerO{
+    color: orange;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+
+
+}
+
+#reset-board {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#reset-board:hover {
+    background-color: #ff4d4d;
+}
+
+#reset-game {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+#reset-game:hover {
+    background-color: #ff4d4d;
+}
+
+.counter {
+    height: 0;
+    width: 15%;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+    padding: 12px;
+}
